@@ -24,30 +24,37 @@ nav{
 }
 
 header{
-  height: 600px;
+  height: 750px;
   background-color: #fff4ef;
+  background-image: url(../img/imgheader.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
 
 
 .bg1{
-  height:840px;
+  height:1300px;
   background-color: #f4f9fd;
+  text-align: center;
 }
 
 .bg2{
   height: 420px;
   background-image: linear-gradient(to top right, #00a4bd 20%, #00b7ab 100%);
+  text-align: center;
 }
 
 .bg3{
-  height:420px;
+  height: 600px;
   background-color: #ffffff;
+  text-align: center;
 }
 footer{
-  height:420px;
+  height:500px;
   background-color: #32495b;
+  text-align: center;
 }
 
 
@@ -64,21 +71,16 @@ footer{
 
 }
 
-.colnav::after{
+.col::after{
   content: "";
   display: table;
   clear: both;
 }
 
-.colnav{
-  width: 1000px;
-  line-height: 30px;
 
-
-}
 
 .col{
-  float: left;
+  float:left;
   margin: auto;
 
 }
@@ -119,18 +121,184 @@ footer{
 
 /* header  */
 
-.imgheader{
-  
-  width: 100%;
-  position: absolute;
-  bottom:0px;
-  right: 0px;
-}
-
-.cta{
+.firstcta{
   height: 400px;
   width: 60%;
+
   border: 1px solid black;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/* section1  prima riga*/
+
+.heading{
+  height: 350px;
+  width: 100%;
+  border: 1px dotted black;
+  margin-top: 30px ;
+  margin-bottom: 30px;
+}
+
+.img-heading{
+  height: 150px;
+  width: 150px;
+  background-color: grey;margin-left: 425px;
+}
+
+/* section1 seconda riga */
+
+.whitecontainer{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.secondline{
+  height: 350px;
+  width: 100%;
+}
+
+/* templete due colonne centrato  */
+.cta{
+  border: 1px dotted black;
+  margin-top: 25px;
+  margin-left: 15px;
+  height: 300px;
+  width: 33%;
+}
+
+.ctatext{
+  position:relative;
+  left: 345px;
+  border: 1px dotted black;
+  margin-top: 25px;
+  height: 300px;
+  width: 64%;
+}
+
+/* section1 terza riga */
+
+
+.thirdline{
+  height: 465px;
+  width: 300px;
+}
+
+.learnmore{
+  height: 200px;
+  width: 300px;
+  border: 1px dotted black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.A{
+  display: inline-block;
+}
+.B{
+  display: inline-block;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.C{
+  display: inline-block;
+}
+
+/* sezione 2 */
+
+.infographic{
+  height: 300px;
+  width: 100%;
+  border: 1px dotted black;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* sezione3 */
+
+.clientline{
+  height: 150px;
+}
+
+.clienttxt{
+  border: 1px dotted black;
+  margin-top: 25px;
+  margin-left: 15px;
+  height: 100px;
+  width: 33%;
+}
+
+.client{
+  border: 1px dotted black;
+  margin-top: 25px;
+  height: 100px;
+  width: 64%;
+}
+
+/* riga seconda */
+.finalcta{
+  height: 450px;
+}
+
+.ctatxt{
+  border: 1px dotted black;
+  margin-top: 25px;
+  height: 400px;
+  width: 70%;
+}
+.smile{
+  border: 1px dotted black;
+  margin-top: 25px;
+  height: 400px;
+  width: 30%;
+}
+
+/* footer */
+
+.container,.footer{
+  text-align: left;
+}
+
+.foot{
+  height: 350px;
+}
+
+.footcol{
+  display: inline-block;
+  border: 1px dotted white;
+  margin: 25px 0px 0px 0px;
+  height: 300px;
+  width: 24%;
+}
+
+.languageft{
+  height: 30px;
+}
+
+.ft{
+  color: white;
+}
+
+.footcopy{
+  height: 100px;
+}
+.footlogo{
+  display: inline-block;
+  border: 1px dotted white;
+  margin: 20px 0px 0px 0px;
+  height: 80px;
+  width: 24%;
+}
+
+.footlegal{
+  position: relative;
+  left: 516px;
+  display: inline-block;
+  border: 1px dotted white;
+  margin: 20px 0px 0px 0px;
+  height: 80px;
+  width: 24%;
+
 }
