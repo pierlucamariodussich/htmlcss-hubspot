@@ -4,29 +4,32 @@
     padding: 0;
   }
 
+.layout{
+
+}
+
+/* background  */
 .logbar{
-  height: 40px;
+
   background-color: #f4f9fd;
   border-bottom: 1px solid #32495b;
+  text-align: center;
 }
 
 nav{
   height: 60px;
   background-color: #ffffff;
   border-bottom: 1px solid #fff4ef;
+  text-align: center;
 }
 
 header{
-  height: 420px;
+  height: 600px;
   background-color: #fff4ef;
+  text-align: center;
 }
 
-.separatore{
-  height: 60px;
-  background-color: #afebe4;
-  border-top: 3px solid #32495b;
-  border-bottom: 3px solid #32495b;
-}
+
 
 .bg1{
   height:840px;
@@ -45,6 +48,89 @@ header{
 footer{
   height:420px;
   background-color: #32495b;
+}
 
 
+
+/* contenitori a due colonne */
+
+
+.container   {
+
+  width: 1000px;
+  border: 1px dotted black;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.colnav::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colnav{
+  width: 1000px;
+  line-height: 30px;
+
+
+}
+
+.col{
+  float: left;
+  margin: auto;
+
+}
+
+/* contenitori logbar */
+
+.language,.login{
+
+  height: 30px;
+  width: 50%;
+  border: 1px dotted black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* contenitori menu */
+
+.logocontainer{
+  height: 30px;
+  width: 50%;
+  border: 1px dotted black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.menu{
+  height: 30px;
+  width: 50%;
+  border: 1px dotted black;
+  margin-top: 15px;
+}
+
+.logo{
+  height: 30px;
+  width:100px;
+  background-color: #32495b;
+}
+
+/* header  */
+
+.imgheader{
+  
+  width: 100%;
+  position: absolute;
+  bottom:0px;
+  right: 0px;
+}
+
+.cta{
+  height: 400px;
+  width: 60%;
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
