@@ -3,12 +3,10 @@
     margin: 0;
     padding: 0;
   }
-<<<<<<< HEAD
+
 
 .layout{
-  height: 100vh;
-  weight: 100vw;
-  margin: auto;
+
 }
 
 .logbar{
@@ -21,18 +19,18 @@
 .language{
   width: 60px;
   height: 20px;
-  border: 1 solid black;
+  border: 1px solid black;
 }
 
 /* .icon{
   width: 10px;
-  height: : 10px;
+  height: 10px;
   background-color: #32495b;
 } */
 
 /* .testologbar{
   width: 30px;
-  height: : 10px;
+  height: 10px;
   background-color: #32495b;
   } */
 
@@ -40,5 +38,3 @@
 
 
 /* in class free proprietà button: colori bordi arrotondati NO grandezza */
-=======
->>>>>>> main
