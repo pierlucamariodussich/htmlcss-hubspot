@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+<<<<<<< HEAD
+
+.layout{
+  height: 100vh;
+  weight: 100vw;
+  margin: auto;
+}
+
+.logbar{
+  width: 100%;
+  height: 50px;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid #32495b;
+}
+
+.language{
+  width: 60px;
+  height: 20px;
+  border: 1 solid black;
+}
+
+/* .icon{
+  width: 10px;
+  height: : 10px;
+  background-color: #32495b;
+} */
+
+/* .testologbar{
+  width: 30px;
+  height: : 10px;
+  background-color: #32495b;
+  } */
+
+
+
+
+/* in class free proprietà button: colori bordi arrotondati NO grandezza */
+=======
+>>>>>>> main
