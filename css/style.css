@@ -44,11 +44,14 @@
 }
 
 .col-30{
-  width: calc(100% / 3);
+  width: 30%;
+}
+.col-30 .col-mar{
+  width:20%;
 }
 
 .col-20{
-  width: calc(100% / 4);
+  width: 20%;
 }
 
 
@@ -163,7 +166,7 @@ div > .nav{
   background-repeat: no-repeat;
   background-color:#fff2ee;
   font-size: 15px;
-  height: 500px
+  height: 500px;
 }
 
 .hero  h1 {
@@ -201,9 +204,12 @@ div > .nav{
 /* prodotti  */
 .product{
   background-color:#f4f9fd;
-  height: 1800px
+  padding-bottom: 80px;
 }
 /* header prodotti */
+.h-product {
+height: 30%;
+}
 .h-product img {
   margin-top: 30px;
 }
@@ -226,12 +232,12 @@ div > .nav{
 .f-product .row {
   background-color: white;
   border-radius: 10px;
-  height:300px;
+  height:25%;
   box-shadow: 0 0 2px 2px  #dedede;
 }
 
 .f-product img {
-  margin-top: 30px;
+  margin-top: 12%;
 }
 
 .testo{
@@ -241,8 +247,8 @@ div > .nav{
   font-size: 22px;
   line-height: 26px;
   font-weight: 600;
-  margin-top: 50px;
-  margin-bottom: 15px;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 .f-product h6 {
   font-size: 16px;
@@ -260,26 +266,121 @@ div > .nav{
   margin-bottom: 15px;
   display: inline;
 }
-.f-product h5 {
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 15px;
-}
+
 
 .check .fa{
   color:#fe775a;
-
+  margin-bottom: 10%;
 }
-
-
 
 /* elenco prodotti */
 
+.e-product .col-30 {
+  background-color: white;
+  border-radius: 10px;
+  height:50%;
+  box-shadow: 0 0 2px 2px  #dedede;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.e-product ul{
+  list-style-type: none;
+  text-align: left;
+  line-height: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.list .fa{
+  color:#fe775a;
+}
+.e-product h3 {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: inline;
+}
+
+.e-product h6 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.e-product h5 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+
+}
+
+.col-mar{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.e-product button {
+  margin-bottom: 10%;
+}
+
+/* tabella */
+
+.green-tab{
+  background-image:linear-gradient(to right, #00a4bd, #00bda5);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  height: 500px;
+}
+
+.green-tab .content{
+  color: white;
+}
 
 
+/* final cta */
 
+.final-cta h1 {
+  font-size: 50px;
+  line-height: 62px;
+  font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.final-cta h5 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: lighter;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.final-cta h6 {
+  font-size: 9 px;
+  line-height: 12px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+/* footer */
+footer{
+  background-color:#32495b;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  height: 500px;
+}
+
+footer .content{
+  color: white;
+}
 /* menu a tendina   */
 
 
