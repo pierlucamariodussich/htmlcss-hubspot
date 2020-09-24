@@ -29,9 +29,12 @@
   width: 100%;
 }
 
+.col-70{
+  width: calc(100% * 2/3);
+}
+
 .col-50{
   width: calc(100% / 2);
-
 }
 
 .col50::after{
@@ -40,7 +43,7 @@
 	clear: both;
 }
 
-.col-33{
+.col-30{
   width: calc(100% / 3);
 }
 
@@ -52,6 +55,7 @@
 /* pulsanti */
 
 .white {
+  background-color: #ffffff;
   border: 1px solid #fe775a;
   color:#fe775a;
 }
@@ -105,6 +109,13 @@ div > .login{
   margin-left: 15px;
   float: right;
 }
+
+.box-cen{
+  color: #32495b;
+  font-family: sans-serif;
+  margin-left: 15px;
+  text-align: center;
+}
 /* contenuto */
 .content > a{
   text-decoration: none;
@@ -119,6 +130,7 @@ div > .login{
 /* colonna2 */
 
 #searchbar{
+  background-color:#f4f9fd;
   border-radius: 5px;
   border:1px solid #fe775a;
   height: 20px;
@@ -139,7 +151,7 @@ div > .nav{
   position: relative;
 }
 
-.content > img{
+.nav img{
   position: absolute;
   top:50%;
 }
@@ -149,10 +161,9 @@ div > .nav{
   background-image: url(../img/imgheader.png);
   background-size: cover;
   background-repeat: no-repeat;
-
   background-color:#fff2ee;
   font-size: 15px;
-  height: 600px
+  height: 500px
 }
 
 .hero  h1 {
@@ -178,6 +189,97 @@ div > .nav{
   margin-top: 30px;
 }
 
+
+/* separatore */
+.separator{
+  background-color:#afebe4;
+  border-top: 3px solid #32495b;
+  border-bottom: 3px solid #32495b;
+  height: 100px
+}
+
+/* prodotti  */
+.product{
+  background-color:#f4f9fd;
+  height: 1800px
+}
+/* header prodotti */
+.h-product img {
+  margin-top: 30px;
+}
+
+.h-product h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.h-product h3 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: lighter;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+/* free prodotti */
+.f-product .row {
+  background-color: white;
+  border-radius: 10px;
+  height:300px;
+  box-shadow: 0 0 2px 2px  #dedede;
+}
+
+.f-product img {
+  margin-top: 30px;
+}
+
+.testo{
+  width: 80%;
+}
+.f-product h4 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.f-product h6 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.f-product h5 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  display: inline;
+}
+.f-product h5 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.check .fa{
+  color:#fe775a;
+
+}
+
+
+
+/* elenco prodotti */
+
+
+
+
 /* menu a tendina   */
 
 
@@ -201,8 +303,8 @@ margin: 10px 0px;
 
 .col-50[class*=" h-cta"]{
 margin: 10px 0px;
-height: 400px;
-border: 1px solid black;
+height: 300px;
+
 }
 
 
