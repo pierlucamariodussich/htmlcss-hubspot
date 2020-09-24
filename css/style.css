@@ -144,8 +144,39 @@ div > .nav{
   top:50%;
 }
 
+/* header */
+.hero{
+  background-image: url(../img/imgheader.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 
+  background-color:#fff2ee;
+  font-size: 15px;
+  height: 600px
+}
 
+.hero  h1 {
+  font-size: 50px;
+  line-height: 62px;
+  font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.hero  h5 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: lighter;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.hero  h6 {
+  font-size: 9 px;
+  line-height: 12px;
+  font-weight: 100;
+  margin-top: 30px;
+}
 
 /* menu a tendina   */
 
@@ -167,6 +198,13 @@ margin: 10px 0px;
 .col-50[class*="menu"]{
 margin: 10px 0px;
 }
+
+.col-50[class*=" h-cta"]{
+margin: 10px 0px;
+height: 400px;
+border: 1px solid black;
+}
+
 
 
 /* border: 1px solid black; */
