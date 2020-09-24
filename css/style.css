@@ -49,12 +49,39 @@
 }
 
 
+/* pulsanti */
+
+.white {
+  border: 1px solid #fe775a;
+  color:#fe775a;
+}
+
+.orange{
+  background-color:#fe775a;
+  color: white;
+  border: none;
+
+}
+
+.small {
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.medium {
+  height: 60px;
+  border-radius: 8px;
+  padding: 5px 30px 5px 30px;
+}
+
+
 /* contenuto */
 
 /* prima riga lingua e log in */
 /* riga */
 .login{
-  background-color:#f4f9fd
+  background-color:#f4f9fd;
 }
 div > .login{
   height: 40px;
@@ -62,18 +89,26 @@ div > .login{
 
 /* contenitore contenuti */
 /* colonna1 */
-.box{
+.box-sx{
   line-height: 40px;
   color: #32495b;
   font-family: sans-serif;
-  float:left;
   margin-right: 5px;
+  float: left;
+}
 
+.box-dx{
+  line-height: 40px;
+  color: #32495b;
+  font-family: sans-serif;
+  margin-left: 15px;
+  float: right;
 }
 /* contenuto */
 .content > a{
   text-decoration: none;
   color: #32495b;
+
 
 }
 .link :hover{
@@ -82,8 +117,31 @@ div > .login{
 
 /* colonna2 */
 
+#searchbar{
+  border-radius: 5px;
+  border:1px solid #fe775a;
+  height: 20px;
+}
 
+/* navigatore menu e logo */
 
+.nav{
+  background-color:#ffffff;
+  font-size: 10px
+}
+
+div > .nav{
+  height: 60px;
+}
+
+.content{
+  position: relative;
+}
+
+.content > img{
+  position: absolute;
+  top:50%;
+}
 
 
 
@@ -102,8 +160,11 @@ margin: 10px 0px;
 /* border: 1px solid black; */
 height: 40px;
 }
-/* .box{
-  height: 50;
+.content{
+   height: 50;
   width: 50;
   border: 1px solid black;
-} */
+}
+.row{
+border: 1px solid black;
+}
