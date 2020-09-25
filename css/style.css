@@ -54,6 +54,48 @@
   width: 25%;
 }
 
+/* font */
+
+h1 {
+   font-size: 50px;
+   line-height: 56px;
+   font-weight: 900;
+   font-family: sans-serif;
+}
+h2 {
+   font-size: 36px;
+   line-height: 40px;
+   font-weight: 900;
+   font-family: sans-serif;
+}
+
+h3 {
+   font-size: 24px;
+   line-height: 26px;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+
+h4 {
+   font-size: 18px;
+   line-height: 22px;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+
+h5 {
+   font-size: 18px;
+   line-height: 22px;
+   font-weight: 200;
+   font-family: sans-serif;
+}
+
+h6 {
+   font-size: 13px;
+   line-height: 15px;
+   font-weight: 100;
+   font-family: sans-serif;
+}
 
 /* pulsanti */
 
@@ -139,9 +181,8 @@ div > .login{
 .content > a{
   text-decoration: none;
   color: #32495b;
-
-
 }
+
 .link :hover{
   color: #fe775a;
 }
@@ -186,26 +227,17 @@ div > .nav{
 }
 
 .hero  h1 {
-  font-size: 50px;
-  line-height: 62px;
-  font-weight: 900;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10%;
 }
 
 .hero  h5 {
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: lighter;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .hero  h6 {
-  font-size: 9 px;
-  line-height: 12px;
-  font-weight: 100;
-  margin-top: 30px;
+  width:55%;
+  margin-top: 8%;
 }
 
 
@@ -231,19 +263,14 @@ height: 30%;
 }
 
 .h-product h2 {
-  font-size: 32px;
-  line-height: 38px;
-  font-weight: 900;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 2%;
 }
-.h-product h3 {
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: lighter;
+.h-product h5 {
   margin-top: 0px;
-  margin-bottom: 60px;
+  margin-bottom: 7%;
 }
+
 /* free prodotti */
 .f-product .row {
   background-color: white;
@@ -259,34 +286,26 @@ height: 30%;
 .testo{
   width: 80%;
 }
-.f-product h4 {
-  font-size: 22px;
-  line-height: 26px;
-  font-weight: 600;
+.f-product h3 {
   margin-top: 10%;
   margin-bottom: 5%;
 }
-.f-product h6 {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: lighter;
-  margin-top: 20px;
-  margin-bottom: 15px;
-}
 
 .f-product h5 {
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  display: inline;
+  font-weight: lighter;
+  margin-top:5%;
+  margin-bottom: 3%;
+}
+
+.f-product h4 {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 
 .check .fa{
   color:#fe775a;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 /* elenco prodotti */
@@ -312,28 +331,20 @@ height: 30%;
   color:#fe775a;
 }
 .e-product h3 {
-  font-size: 24px;
-  line-height: 26px;
-  font-weight: bold;
-  margin-top: 40px;
-  margin-bottom: 30px;
-  display: inline;
+  margin-top: 10%;
+  margin-bottom: 5%;
+
 }
 
 .e-product h6 {
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: lighter;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 
 }
-.e-product h5 {
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 15px;
+.e-product h4 {
+
+  margin-top: 10%;
+  margin-bottom: 5%;
 
 }
 
@@ -346,6 +357,9 @@ height: 30%;
   margin-bottom: 10%;
 }
 
+.tavolo{
+  margin:3px;
+}
 /* tabella */
 
 .green-tab{
@@ -359,20 +373,14 @@ height: 30%;
   color: white;
 }
 
-.green-tab h1{
-  font-size: 36px;
-  line-height: 40px;
-  font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 15px;
+.green-tab h2{
+  margin-top: 0;
+  margin-bottom: 5%;
 }
 
 .green-tab h5{
-  font-size:16px;
-  line-height: 20px;
-  font-weight: lighter;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 3%;
+  margin-bottom: 5%;
 }
 
 
@@ -404,34 +412,22 @@ tr:last-child td:last-child{
 /* final cta */
 
 .final-cta h1 {
-  font-size: 50px;
-  line-height: 62px;
-  font-weight: 900;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .final-cta h5 {
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: lighter;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .final-cta h6 {
-  font-size: 9px;
-  line-height: 12px;
-  font-weight: 100;
-  margin-top: 30px;
+  margin-top: 5%;
 }
 
 .final-cta h2 {
-  font-size: 32px;
-  line-height: 36px;
-  font-weight: bold;
-  margin-top: 80px;
-  margin-bottom: 30px;
+  margin-top: 15%;
+  margin-bottom: 5%;
 }
 
 
@@ -455,8 +451,8 @@ tr:last-child td:last-child{
 /* footer */
 footer{
   background-color:#32495b;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
 }
 
@@ -464,22 +460,15 @@ footer .content{
   color: white;
 }
 
-footer h3{
-  font-size: 18px;
-  font-family: sans-serif;
-  font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 15px;
-  padding-right: 10px;
+footer h4{
+
+  margin-bottom: 5%;
+  padding-right: 5%;
   text-align:left;
 }
 footer h6 {
   color: white;
-  font-size: 13px;
-  line-height: 15px;
-  font-weight: 100;
-  font-family: sans-serif;
-  margin-bottom: 15px;
+  margin-bottom: 5%;
   text-align:left;
 }
 
