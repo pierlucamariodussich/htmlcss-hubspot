@@ -31,7 +31,7 @@
 }
 
 .col-70{
-  width: calc(100% * 2/3);
+  width: 70%;
 }
 
 .col-50{
@@ -232,8 +232,6 @@ div#lang-menu li li a {
   padding:2px 2px 2px 10px;
 }
 
-/* navmenu */
-
 
 /* contenuto */
 
@@ -272,24 +270,87 @@ div > .login{
 }
 
 /* navigatore menu e logo */
-
+.menu{
+  width: 70%;
+}
 .nav{
   background-color:#ffffff;
   font-size: 15px;
+  height:60px;
 }
 
-div > .nav{
-  height: 60px;
-}
-
-.content{
+ .content{
   position: relative;
 }
 
-.nav img{
-  position: absolute;
-  top:50%;
+nav .row {
+  margin-top:20px;
 }
+
+/* navmenu */
+
+div#nav-menu {
+  width: 100%;
+  float: left;
+  margin-left:0;
+  padding: 0;
+
+}
+
+div#nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+div#nav-menu li{
+  width:80px;
+  float:left;
+  margin: 0;
+  padding: 0;
+  color: #32495b;
+  text-align: center;
+}
+ /* stili  */
+
+div#nav-menu a {
+  display: block;
+  padding: 0px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #32495b;
+  text-decoration: none;
+}
+
+div#nav-menu a:hover{
+  background-color:#fe775a;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+div#nav-menu li ul {
+  display: none
+}
+
+div#nav-menu li:hover ul {
+  display: block;
+  position: absolute;
+  z-index:1;
+  width:80px;
+  padding: 0;
+  margin: 0 0 0 0px;
+  background: white;
+}
+
+div#nav-menu li li {
+  border:80px;
+}
+
+div#nav-menu li li a {
+  padding:2px 10px 2px 2px;
+}
+
 
 /* header */
 .hero{
