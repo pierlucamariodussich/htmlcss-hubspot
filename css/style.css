@@ -51,7 +51,7 @@
 }
 
 .col-20{
-  width: 20%;
+  width: 25%;
 }
 
 
@@ -336,13 +336,48 @@ height: 30%;
   background-image:linear-gradient(to right, #00a4bd, #00bda5);
   padding-top: 80px;
   padding-bottom: 80px;
-  height: 500px;
+
 }
 
 .green-tab .content{
   color: white;
 }
 
+.green-tab h1{
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.green-tab h5{
+  font-size:16px;
+  line-height: 20px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+table{
+  table-layout: fixed;
+  width:100%;
+  height: 200px;
+  border: 1px solid white;
+  margin: 20px;
+}
+
+
+ td{
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+  td{
+  border-right: 1px solid white;
+}
 
 /* final cta */
 
@@ -363,24 +398,115 @@ height: 30%;
 }
 
 .final-cta h6 {
-  font-size: 9 px;
+  font-size: 9px;
   line-height: 12px;
   font-weight: 100;
   margin-top: 30px;
 }
+
+.final-cta h2 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+
+.final-cta .custumers{
+  width: 50%;
+  text-align: left;
+  position: relative;
+  left: 20%;
+  margin-top: 50px;
+}
+
+.final-cta img{
+  width: 100%;
+}
+
+#clienti{
+  margin-top: 80px
+}
+
 
 /* footer */
 footer{
   background-color:#32495b;
   padding-top: 80px;
   padding-bottom: 80px;
-
   height: 500px;
 }
 
 footer .content{
   color: white;
 }
+
+footer h3{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  text-align:left;
+}
+footer h6 {
+  color: white;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 100;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+  text-align:left;
+}
+
+
+.f-button {
+  background-color: white;
+  color:#32495b;
+  border:none;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+footer .fa{
+  color:white;
+  padding-right: 15px;
+}
+
+.icon{
+  text-align: left;
+  margin-top: 15px;
+}
+
+footer text{
+  color: white;
+  margin:0;
+}
+
+.margin-icon{
+  position: relative;
+
+  text-align: left;
+}
+
+footer .col-100{
+  margin-top: 30px;
+  margin-bottom: 10px
+}
+footer hr{
+  color: white;
+}
+
+.logofooter,img{
+  width: 30%;
+  padding-top:10px;
+}
+
+
+
 /* menu a tendina   */
 
 
