@@ -237,7 +237,10 @@ div#lang-menu li li a {
 
 /* prima riga lingua e log in */
 /* riga */
-.login{
+.log{
+  background-color:#f4f9fd;
+}
+.login {
   background-color:#f4f9fd;
   font-size: 12px;
 }
