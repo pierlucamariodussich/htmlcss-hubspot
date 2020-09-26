@@ -239,10 +239,11 @@ div#lang-menu li li a {
 /* riga */
 .log{
   background-color:#f4f9fd;
+  border-bottom: 1px solid
 }
 .login {
   background-color:#f4f9fd;
-  font-size: 12px;
+  font-size: 12px; #32495b;
 }
 div > .login{
   height: 40px;
