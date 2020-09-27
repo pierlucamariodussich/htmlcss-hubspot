@@ -169,6 +169,11 @@ span {
   padding: 5px 30px 5px 30px;
 }
 
+/* testo link  */
+.link :hover{
+  color: #fe775a;
+}
+
 /* menu tendina prova */
 /* language menu */
 div#lang-menu {
@@ -241,46 +246,36 @@ div#lang-menu li li a {
   background-color:#f4f9fd;
   border-bottom: 1px solid
 }
-.login {
-  background-color:#f4f9fd;
-  font-size: 12px; #32495b;
-}
-div > .login{
-  height: 40px;
+
+.col-50[class*="lang-bar"]{
+margin: 10px 0px;
 }
 
-
-
-
-/* contenuto */
-.content > a{
-  font-size: 15px;
-  text-decoration: none;
-  color: #32495b;
-  vertical-align: middle;
+.col-50[class*="logbar"]{
+margin: 10px 0px;
 }
-
-.link :hover{
-  color: #fe775a;
-}
-
 /* colonna2 */
-
+/* prova sparizione con postion */
 #searchbar{
   background-color:#f4f9fd;
   border-radius: 5px;
   border:1px solid #fe775a;
   height: 20px;
 }
-
 /* navigatore menu e logo */
-.menu{
-  width: 70%;
-}
+
 .nav{
   background-color:#ffffff;
   font-size: 15px;
   height:60px;
+}
+
+.col-50[class*="logo"]{
+margin: 10px 0px;
+}
+
+.col-50[class*="menu"]{
+margin: 10px 0px;
 }
 
  .content{
@@ -359,11 +354,12 @@ div#nav-menu li li a {
 /* header */
 .hero{
   background-image: url(../img/imgheader.png);
-  background-size: cover;
+  background-size: contain;
+  background-position:right;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-color:#fff2ee;
-  font-size: 15px;
-  height: 600px;
+  height: 850px;
 }
 
 .hero  h1 {
@@ -386,7 +382,7 @@ div#nav-menu li li a {
   background-color:#afebe4;
   border-top: 3px solid #32495b;
   border-bottom: 3px solid #32495b;
-  height: 100px
+  height: 100px;
 }
 
 /* prodotti  */
@@ -427,6 +423,7 @@ height: 30%;
 .testo{
   width: 80%;
 }
+
 .f-product h3 {
   margin-top: 10%;
   margin-bottom: 5%;
@@ -542,10 +539,12 @@ table{
   table-layout: fixed;
   width:100%;
   height: 200px;
-
   margin: 20px;
 }
+
+
  /* righe tabella  */
+
 tr:first-child td{
   border-right: 1px solid white;
   border-bottom:1px solid white;
@@ -609,9 +608,7 @@ footer{
 
 }
 
-footer .content{
-  color: white;
-}
+
 
 footer h4{
   color: white;
@@ -699,21 +696,9 @@ font-weight: 400;
 
 
 /* contenuto  altezze e bordi */
-.col-50[class*="lang-bar"]{
-margin: 10px 0px;
-}
 
-.col-50[class*="logbar"]{
-margin: 10px 0px;
-}
 
-.col-50[class*="logo"]{
-margin: 10px 0px;
-}
 
-.col-50[class*="menu"]{
-margin: 10px 0px;
-}
 
 .col-50[class*=" h-cta"]{
 margin: 10px 0px;
