@@ -596,9 +596,12 @@ tr:last-child td:last-child{
 }
 
 #clienti{
-  margin-top: 80px
+  margin-top: 55px
 }
 
+.final-cta .row{
+  margin-top: 30px;
+}
 
 /* footer */
 footer{
