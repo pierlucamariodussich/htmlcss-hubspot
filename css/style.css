@@ -278,17 +278,22 @@ margin: 10px 0px;
   background-color:#ffffff;
   font-size: 15px;
   height:80px;
+  margin-top:30px;
 }
 
 .content{
   position: relative;
 }
 
-nav .row {
-  margin-top:40px;
 
+nav .menu {
+  margin-top:6px;
 }
 
+nav img{
+  height: 50px;
+
+}
 /* navmenu */
 
 .n{
@@ -366,7 +371,7 @@ div#nav-menu li li a {
   background-position: bottom;
   background-repeat: no-repeat;
   background-color:#fff2ee;
-  height: 80vh;
+  height: 70vh;
 }
 
 .hero  h1 {
