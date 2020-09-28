@@ -162,15 +162,18 @@ span {
 }
 
 .small {
-  height: 30px;
+  font-size: 18px;
+  width: auto;
+  height: 40px;
   border-radius: 5px;
-  padding: 5px 5px;
+  padding: 5px 15px;
 }
 
 .medium {
   height: 60px;
   border-radius: 8px;
   padding: 5px 30px 5px 30px;
+  font-size: 24px;
 
 }
 
@@ -196,9 +199,9 @@ div#lang-menu ul {
 
 
 div#lang-menu li{
-  width:100px;
+  width:auto;
   float:left;
-  margin: 0;
+  margin-right:0px;
   padding: 0;
   color: #32495b;
 }
@@ -208,7 +211,7 @@ div#lang-menu a {
   display: block;
   padding: 5px;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   color: #32495b;
   text-decoration: none;
 }
@@ -250,7 +253,8 @@ div#lang-menu li li a {
 .log{
   background-color:#f4f9fd;
   border-bottom: 1px solid;
-  height: 60px;
+  margin-top: 10px;
+  height: 80px;
 }
 
 .col-50[class*="lang-bar"]{
@@ -287,6 +291,10 @@ nav .row {
 
 /* navmenu */
 
+.n{
+  margin-left: 100px;
+}
+
 div#nav-menu {
   width: 100%;
   float: left;
@@ -296,27 +304,26 @@ div#nav-menu {
 }
 
 div#nav-menu ul {
-  margin: 0;
+  margin-left:0px;
   padding: 0;
   list-style-type: none;
 }
 
 
 div#nav-menu li{
-  width:80px;
+  width:auto;
   float:left;
-  margin: 0;
+  margin-left:30px;
   padding: 0;
   color: #32495b;
-  text-align: center;
+  text-align: left;
 }
  /* stili  */
 
 div#nav-menu a {
   display: block;
-  padding: 0px;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 23px;
   color: #32495b;
   text-decoration: none;
 }
@@ -335,10 +342,11 @@ div#nav-menu li:hover ul {
   display: block;
   position: absolute;
   z-index:1;
-  width:80px;
+  width:auto;
   padding: 0;
   margin: 0 0 0 0px;
   background: white;
+
 }
 
 div#nav-menu li li {
