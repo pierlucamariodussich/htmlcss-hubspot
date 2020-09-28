@@ -7,7 +7,9 @@
 
 /* struttura */
 
-
+.container .h{
+  height: 100vh;
+}
 .layout{
   width: 70%;
   margin:auto;
@@ -23,7 +25,13 @@
 	display: table;
 	clear: both;
 }
-
+/* centratura per altezza */
+.h-c{
+  position: absolute;
+  top:50%;
+  bottom:50%;
+  transform:translate(0%;-50%);
+}
 /* tipologie di colonne */
 
 .col-100{
@@ -151,10 +159,6 @@ span {
   background-color:white;
   color: #fe775a;
   border: 3px solid #fe775a;
-  transform: scale(1.2,1.2);
-  transform: translateX(2px);
-
-
 }
 
 .small {
@@ -167,6 +171,7 @@ span {
   height: 60px;
   border-radius: 8px;
   padding: 5px 30px 5px 30px;
+
 }
 
 /* testo link  */
@@ -244,7 +249,8 @@ div#lang-menu li li a {
 /* riga */
 .log{
   background-color:#f4f9fd;
-  border-bottom: 1px solid
+  border-bottom: 1px solid;
+  height: 60px;
 }
 
 .col-50[class*="lang-bar"]{
@@ -267,23 +273,16 @@ margin: 10px 0px;
 .nav{
   background-color:#ffffff;
   font-size: 15px;
-  height:60px;
+  height:80px;
 }
 
-.col-50[class*="logo"]{
-margin: 10px 0px;
-}
-
-.col-50[class*="menu"]{
-margin: 10px 0px;
-}
-
- .content{
+.content{
   position: relative;
 }
 
 nav .row {
-  margin-top:20px;
+  margin-top:40px;
+
 }
 
 /* navmenu */
@@ -359,7 +358,7 @@ div#nav-menu li li a {
   background-position: bottom;
   background-repeat: no-repeat;
   background-color:#fff2ee;
-  height: 850px;
+  height: 80vh;
 }
 
 .hero  h1 {
@@ -382,7 +381,7 @@ div#nav-menu li li a {
   background-color:#afebe4;
   border-top: 3px solid #32495b;
   border-bottom: 3px solid #32495b;
-  height: 100px;
+  height: 10vh;
 }
 
 /* prodotti  */
@@ -395,6 +394,7 @@ div#nav-menu li li a {
 .h-product {
 height: 30%;
 }
+
 .h-product img {
   margin-top: 30px;
 }
@@ -414,10 +414,11 @@ height: 30%;
   border-radius: 10px;
   height:25%;
   box-shadow: 0 0 2px 2px  #dedede;
+  position: relative;
 }
 
 .f-product img {
-  margin-top: 12%;
+  margin-top: 16%;
 }
 
 .testo{
@@ -453,7 +454,7 @@ height: 30%;
   border-radius: 10px;
   height:50%;
   box-shadow: 0 0 2px 2px  #dedede;
-  padding: 15px;
+  padding: 30px;
   margin-top: 30px;
 }
 
@@ -463,6 +464,9 @@ height: 30%;
   line-height: 18px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.list{
+  width: 100%;
 }
 
 .list .fa{
